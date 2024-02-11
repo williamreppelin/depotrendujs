@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel ="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="message-error">Formulaire non envoyé</div>
+    <div class="message-success">Formulaire envoyé</div>
+  
+  
+    <form action="" method="post" enctype="multipart/form-data">
+      <div>
+          <label for="Nom">Nom</label>
+          <input type="text" id="nom" name="nom" placeholder="Votre nom">
+      </div>
+      <div>
+          <label for="prénom">Prénom</label>
+          <input type="text" id="prénom" name="prénom" placeholder="Votre prénom">
+      </div>
+      <div>
+          <label for="email">e-mail</label>
+          <input type="email" id="email" name="email" placeholder="Votre E-mail">
+      </div>
+      <div>
+          <label for="téléphone">Téléphone</label>
+          <input type="number" id="téléphone" name="téléphone" placeholder="Votre téléphone">
+      </div>
+      <select name="votre jeux préféré" id="preferences">
+          <option value="COD">Call of Duty</option>
+          <option value="LC">Lapin crétin</option>
+          <option value="AC">Assassin's creed</option>
+          <option value="POP">Prince of persia</option>
+  
+      </select>
+      <label for="story"> Envoie-nous un commentaire</label>
+      <textarea id="story" name="story" rows="5" cols="33">
+          commentaires:
+      </textarea>
+  
+      <input type="reset" value="Remettre à 0">
+      <input type="submit" value="envoyer">
+
+
+
+
+      <script src="main2.js"></script>
+</body>
+</html>

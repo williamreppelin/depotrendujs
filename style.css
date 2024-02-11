@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 26px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  color: blue;
+
+}
+
+.swiper{
+  width: 800px;
+  height: 500px;
+}
+
+.swiper-slide{
+  height: 60vh;
+  
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  font-size: 18px;
+  padding-left: 75px;
+  padding-top: 70px;  
+}
+
+.title{
+  letter-spacing: 2px;
+  font-size: 24px;
+  color: blue;
+}
+
+.slidePOP{
+  background-image: url("téléchargement.jpeg");
+  background-size: cover;
+}
+
+.slideAC{
+  background-image: url("téléchargement\ \(4\).jpeg");
+  background-size: cover;
+}
+
+.slideLC{
+  background-image: url("téléchargement\ \(2\).jpeg");
+  background-size: cover;
+}
+
+.slideCOD{
+  background-image: url("téléchargement\ \(1\).jpeg");
+  background-size: cover;
+}
+
+.portfolio{
+  padding: 80px 40px;
+  background-color: blue;
+
+}
+
+.portfolio-elements{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 50px 0;
+}
+
+.card{
+  width: 30%;
+  background-color: azure;
+
+}
+
+.card-header{
+  padding: 20px 40px;
+}
+
+.card-title{
+  text-transform: capitalize;
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+
+.card-axe{
+  font-size: 24px;
+  color: brown;
+  margin-top: 6px;
+}
+
+.card img{
+  display: block;
+  width: 100%;
+  height: 300px;
+  object-fit: cover ;
+}
+
+.filters{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.filters ul {
+  display: flex;
+  gap: 20px;
+}
+
+.filters li {
+  color: blue;
+  background-color: aqua  ;
+  padding: 20px 30px;
+  cursor: pointer;
+}
+
+.filters li.active{
+  background-color: aqua;
+}
+
+
